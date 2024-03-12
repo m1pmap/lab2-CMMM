@@ -199,6 +199,7 @@ namespace lab_2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            chart1.Update();
             chart1.Series.Clear();
             chart1.Series.Add("График функции");
             chart1.Series[0].BorderWidth = 5;
